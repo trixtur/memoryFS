@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cross-env": "^5.2.0",
+    "mocha": "^5.2.0",
+    "prettier": "^1.15.3"
+  },
+  "scripts": {
+    "test": "cross-env NODE_ENV=test mocha --recursive"
+  }
+}
